@@ -2,22 +2,11 @@
 
 The data and baseline codes for the [competition](https://biendata.com/competition/idiom/), which is adapted from the ACL 2019 paper "**[ChID: A Large-scale Chinese IDiom Dataset for Cloze Test](https://www.aclweb.org/anthology/P19-1075)**" (Zheng et al., 2019).
 
-If you have any question, please get in touch with me zcj16@mails.tsinghua.edu.cn.
-
 ## Competition Data
 
-### Download Links
+### Download Link
 
-| Corpus             | Link                                                  |
-| ------------------ | ----------------------------------------------------- |
-| `train.txt`        | https://cloud.tsinghua.edu.cn/f/f8b048175a7b462cb2ba/ |
-| `train_answer.csv` | https://cloud.tsinghua.edu.cn/f/0787d9e62f0e4992ad0e/ |
-| `idiomDict.json`   | https://cloud.tsinghua.edu.cn/f/c5743ff2903445e2b8fc/ |
-| `dev.txt`          | https://cloud.tsinghua.edu.cn/f/90c53b04a2374493acac/ |
-| `dev_answer.csv`   | -                                                     |
-| `test.txt`         | -                                                     |
-
-where the `idiomDict.json` is the corpus of idiom explanations we provide for participants.
+[Here](https://drive.google.com/drive/folders/1iSfXT2FJy7qfgmjGIMYkTo5rkXJSXocw?usp=sharing).
 
 ### Data Description
 
@@ -131,8 +120,8 @@ If you have successfully trained your model, you could simply remove the line of
 
 | Baselines | Dev      | Test | Out  |
 | --------- | -------- | ---- | ---- |
-| **BERT**  | 72.71305 | -    | -    |
-| **AR**    | 65.40785 | -    | -    |
+| **BERT**  | 72.71305 | 72.36848    | 64.64770    |
+| **AR**    | 65.40785 | 65.57370    | 55.64539    |
 
 Results on other sets will be annouced later.
 

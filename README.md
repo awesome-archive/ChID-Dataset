@@ -2,8 +2,6 @@
 
 The ChID Dataset for paper **[ChID: A Large-scale Chinese IDiom Dataset for Cloze Test](https://www.aclweb.org/anthology/P19-1075)**.
 
-If you have any question about the dataset, please get in touch with zcj16@mails.tsinghua.edu.cn.
-
 If your research is related to or based on our ChID dataset (or the version adapted for the competition), please kindly cite it:
 
 ```
@@ -19,16 +17,12 @@ If your research is related to or based on our ChID dataset (or the version adap
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/P19-1075",
     pages = "778--787",
-    abstract = "Cloze-style reading comprehension in Chinese is still limited due to the lack of various corpora. In this paper we propose a large-scale Chinese cloze test dataset ChID, which studies the comprehension of idiom, a unique language phenomenon in Chinese. In this corpus, the idioms in a passage are replaced by blank symbols and the correct answer needs to be chosen from well-designed candidate idioms. We carefully study how the design of candidate idioms and the representation of idioms affect the performance of state-of-the-art models. Results show that the machine accuracy is substantially worse than that of human, indicating a large space for further research.",
 }
 ```
 
-## Download Links
+## Download Link
 
-|   Corpus   |   Link   |
-| ---- | ---- |
-|   **Train**   |   https://cloud.tsinghua.edu.cn/f/1849c1bc37c446cf8739/   |
-|   **Dev**   |   It will be available later.   |
+[Here](https://drive.google.com/drive/folders/1qdcMgCuK9d93vLVYJRvaSLunHUsGf50u?usp=sharing).
 
 
 ## Data Description
@@ -62,6 +56,14 @@ We are organizing a [competition](https://biendata.com/competition/idiom/) adapt
 
 
 ## Update History
+
+### Update 191001
+
+The competition has finished. We have uploaded **all split sets** of ChID! Feel free to use it in your research.
+
+### Update 190919
+
+We have uploaded the **Dev** set of ChID, while the files `dev_answer.csv` and `test.txt` for the competition were also updated.
 
 ### Update 190702
 
